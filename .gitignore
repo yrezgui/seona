@@ -32,3 +32,10 @@ local.properties
 #
 node_modules/
 npm-debug.log
+
+
+# iOS
+# Carthage
+#
+ios/Carthage/Checkouts
+ios/Carthage/Build

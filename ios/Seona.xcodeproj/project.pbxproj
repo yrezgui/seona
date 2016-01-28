@@ -21,20 +21,20 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		25861EB01C598A210015DF6A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25861EA91C598A210015DF6A /* Alamofire.framework */; };
-		25861EB11C598A210015DF6A /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25861EAA1C598A210015DF6A /* AlamofireObjectMapper.framework */; };
-		25861EB21C598A210015DF6A /* HTTPStatusCodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25861EAB1C598A210015DF6A /* HTTPStatusCodes.framework */; };
-		25861EB31C598A210015DF6A /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25861EAC1C598A210015DF6A /* ObjectMapper.framework */; };
-		25861EB41C598A210015DF6A /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25861EAD1C598A210015DF6A /* Starscream.framework */; };
-		25861EB51C598A210015DF6A /* WatsonDeveloperCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25861EAE1C598A210015DF6A /* WatsonDeveloperCloud.framework */; };
-		25861EB61C598A210015DF6A /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25861EAF1C598A210015DF6A /* XCGLogger.framework */; };
-		25861EB81C598A490015DF6A /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25861EA91C598A210015DF6A /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		25861EB91C598A490015DF6A /* AlamofireObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25861EAA1C598A210015DF6A /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		25861EBA1C598A490015DF6A /* HTTPStatusCodes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25861EAB1C598A210015DF6A /* HTTPStatusCodes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		25861EBB1C598A490015DF6A /* ObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25861EAC1C598A210015DF6A /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		25861EBC1C598A490015DF6A /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25861EAD1C598A210015DF6A /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		25861EBD1C598A490015DF6A /* WatsonDeveloperCloud.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25861EAE1C598A210015DF6A /* WatsonDeveloperCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		25861EBE1C598A490015DF6A /* XCGLogger.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25861EAF1C598A210015DF6A /* XCGLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25E40B3A1C599E9B006C66D0 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E40B331C599E9B006C66D0 /* AlamofireObjectMapper.framework */; };
+		25E40B3E1C599E9B006C66D0 /* WatsonDeveloperCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E40B371C599E9B006C66D0 /* WatsonDeveloperCloud.framework */; };
+		25E40B3F1C599E9B006C66D0 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E40B381C599E9B006C66D0 /* XCGLogger.framework */; };
+		25E40B411C599EC5006C66D0 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25E40B321C599E9B006C66D0 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25E40B421C599EC5006C66D0 /* AlamofireObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25E40B331C599E9B006C66D0 /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25E40B431C599EC5006C66D0 /* HTTPStatusCodes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25E40B341C599E9B006C66D0 /* HTTPStatusCodes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25E40B481C599F0D006C66D0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E40B321C599E9B006C66D0 /* Alamofire.framework */; };
+		25E40B4C1C599F0D006C66D0 /* HTTPStatusCodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E40B341C599E9B006C66D0 /* HTTPStatusCodes.framework */; };
+		25E40B4E1C599F0D006C66D0 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E40B351C599E9B006C66D0 /* ObjectMapper.framework */; };
+		25E40B4F1C599F0D006C66D0 /* ObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25E40B351C599E9B006C66D0 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25E40B501C599F0D006C66D0 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E40B361C599E9B006C66D0 /* Starscream.framework */; };
+		25E40B511C599F0D006C66D0 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25E40B361C599E9B006C66D0 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25E40B531C599F0D006C66D0 /* WatsonDeveloperCloud.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25E40B371C599E9B006C66D0 /* WatsonDeveloperCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25E40B551C599F0D006C66D0 /* XCGLogger.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25E40B381C599E9B006C66D0 /* XCGLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -119,19 +119,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		25861EB71C598A3D0015DF6A /* CopyFiles */ = {
+		25E40B401C599EA8006C66D0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				25861EB81C598A490015DF6A /* Alamofire.framework in CopyFiles */,
-				25861EB91C598A490015DF6A /* AlamofireObjectMapper.framework in CopyFiles */,
-				25861EBA1C598A490015DF6A /* HTTPStatusCodes.framework in CopyFiles */,
-				25861EBB1C598A490015DF6A /* ObjectMapper.framework in CopyFiles */,
-				25861EBC1C598A490015DF6A /* Starscream.framework in CopyFiles */,
-				25861EBD1C598A490015DF6A /* WatsonDeveloperCloud.framework in CopyFiles */,
-				25861EBE1C598A490015DF6A /* XCGLogger.framework in CopyFiles */,
+				25E40B411C599EC5006C66D0 /* Alamofire.framework in CopyFiles */,
+				25E40B511C599F0D006C66D0 /* Starscream.framework in CopyFiles */,
+				25E40B4F1C599F0D006C66D0 /* ObjectMapper.framework in CopyFiles */,
+				25E40B551C599F0D006C66D0 /* XCGLogger.framework in CopyFiles */,
+				25E40B421C599EC5006C66D0 /* AlamofireObjectMapper.framework in CopyFiles */,
+				25E40B531C599F0D006C66D0 /* WatsonDeveloperCloud.framework in CopyFiles */,
+				25E40B431C599EC5006C66D0 /* HTTPStatusCodes.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,13 +157,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Seona/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Seona/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		25861EA91C598A210015DF6A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		25861EAA1C598A210015DF6A /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
-		25861EAB1C598A210015DF6A /* HTTPStatusCodes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTTPStatusCodes.framework; path = Carthage/Build/iOS/HTTPStatusCodes.framework; sourceTree = "<group>"; };
-		25861EAC1C598A210015DF6A /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
-		25861EAD1C598A210015DF6A /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
-		25861EAE1C598A210015DF6A /* WatsonDeveloperCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatsonDeveloperCloud.framework; path = Carthage/Build/iOS/WatsonDeveloperCloud.framework; sourceTree = "<group>"; };
-		25861EAF1C598A210015DF6A /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
+		25E40B321C599E9B006C66D0 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		25E40B331C599E9B006C66D0 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		25E40B341C599E9B006C66D0 /* HTTPStatusCodes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTTPStatusCodes.framework; path = Carthage/Build/iOS/HTTPStatusCodes.framework; sourceTree = "<group>"; };
+		25E40B351C599E9B006C66D0 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		25E40B361C599E9B006C66D0 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		25E40B371C599E9B006C66D0 /* WatsonDeveloperCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatsonDeveloperCloud.framework; path = Carthage/Build/iOS/WatsonDeveloperCloud.framework; sourceTree = "<group>"; };
+		25E40B381C599E9B006C66D0 /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,21 +181,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
+				25E40B481C599F0D006C66D0 /* Alamofire.framework in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
-				25861EB21C598A210015DF6A /* HTTPStatusCodes.framework in Frameworks */,
-				25861EB61C598A210015DF6A /* XCGLogger.framework in Frameworks */,
-				25861EB51C598A210015DF6A /* WatsonDeveloperCloud.framework in Frameworks */,
+				25E40B4C1C599F0D006C66D0 /* HTTPStatusCodes.framework in Frameworks */,
+				25E40B3F1C599E9B006C66D0 /* XCGLogger.framework in Frameworks */,
+				25E40B4E1C599F0D006C66D0 /* ObjectMapper.framework in Frameworks */,
+				25E40B3E1C599E9B006C66D0 /* WatsonDeveloperCloud.framework in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
-				25861EB31C598A210015DF6A /* ObjectMapper.framework in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
-				25861EB11C598A210015DF6A /* AlamofireObjectMapper.framework in Frameworks */,
-				25861EB01C598A210015DF6A /* Alamofire.framework in Frameworks */,
+				25E40B3A1C599E9B006C66D0 /* AlamofireObjectMapper.framework in Frameworks */,
+				25E40B501C599F0D006C66D0 /* Starscream.framework in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
-				25861EB41C598A210015DF6A /* Starscream.framework in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,16 +298,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		25861E9E1C5989CD0015DF6A /* Frameworks */ = {
+		25E40B311C599E80006C66D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				25861EA91C598A210015DF6A /* Alamofire.framework */,
-				25861EAA1C598A210015DF6A /* AlamofireObjectMapper.framework */,
-				25861EAB1C598A210015DF6A /* HTTPStatusCodes.framework */,
-				25861EAC1C598A210015DF6A /* ObjectMapper.framework */,
-				25861EAD1C598A210015DF6A /* Starscream.framework */,
-				25861EAE1C598A210015DF6A /* WatsonDeveloperCloud.framework */,
-				25861EAF1C598A210015DF6A /* XCGLogger.framework */,
+				25E40B321C599E9B006C66D0 /* Alamofire.framework */,
+				25E40B331C599E9B006C66D0 /* AlamofireObjectMapper.framework */,
+				25E40B341C599E9B006C66D0 /* HTTPStatusCodes.framework */,
+				25E40B351C599E9B006C66D0 /* ObjectMapper.framework */,
+				25E40B361C599E9B006C66D0 /* Starscream.framework */,
+				25E40B371C599E9B006C66D0 /* WatsonDeveloperCloud.framework */,
+				25E40B381C599E9B006C66D0 /* XCGLogger.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -348,7 +348,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				25861E9E1C5989CD0015DF6A /* Frameworks */,
+				25E40B311C599E80006C66D0 /* Frameworks */,
 				13B07FAE1A68108700A75B9A /* Seona */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* SeonaTests */,
@@ -396,7 +396,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				25861EB71C598A3D0015DF6A /* CopyFiles */,
+				25E40B401C599EA8006C66D0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -675,6 +675,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEAD_CODE_STRIPPING = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -685,9 +686,11 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
 				INFOPLIST_FILE = Seona/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Seona;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -695,6 +698,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -705,9 +709,11 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
 				INFOPLIST_FILE = Seona/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Seona;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
